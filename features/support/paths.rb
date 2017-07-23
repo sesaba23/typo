@@ -15,6 +15,10 @@ module NavigationHelpers
 
     when /^the home\s?page$/
       '/'
+    when /^the admin\s?page$/
+      '/admin'
+    when /^the Categories page$/
+      '/admin/categories/new'
     when /^the new article page$/
       '/admin/content/new'
 
